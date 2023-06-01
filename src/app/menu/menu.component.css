@@ -1,0 +1,16 @@
+.menu{
+  background: #26769e;
+  background-color: 100ww;
+  height: 40px;
+  width: 100%;
+  align-items: right;
+  padding: 1px;
+
+}
+
+
+#menu ul{
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+}

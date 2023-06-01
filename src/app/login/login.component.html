@@ -1,0 +1,33 @@
+<div class="homePage">
+  <div class="titleHome">
+    <img src="/assets/logomarca.png" alt="GTA">
+
+  </div>
+
+  <div class="loginForm">
+    <mat-card>
+      <h1>UMech - Login</h1>
+        <div class="formInputs">
+          <p>
+            <mat-label>Email</mat-label>
+            <mat-form-field appearance="outline">
+              <mat-label>Digite seu E-mail</mat-label>
+              <input text matInput placeholder="E-mail">
+            </mat-form-field>
+          </p>
+
+          <p>
+            <mat-label>Senha</mat-label>
+            <mat-form-field appearance="outline">
+              <mat-label>Digite sua Senha</mat-label>
+              <input matInput placeholder="Senha" type="password">
+            </mat-form-field>
+          </p>
+        </div>
+        <div>
+          <button class="botao1" mat-raised-button (click)="fazerLogin()">Entrar</button>
+          <button class="botao2" mat-raised-button (click)="cadastrar()">Cadastrar</button>
+        </div>
+      </mat-card>
+  </div>
+</div>
